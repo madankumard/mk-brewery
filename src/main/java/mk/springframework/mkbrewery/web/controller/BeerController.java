@@ -1,4 +1,4 @@
-package mk.springframework.mkbrewery.controller;
+package mk.springframework.mkbrewery.web.controller;
 
 import mk.springframework.mkbrewery.services.BeerService;
 import mk.springframework.mkbrewery.web.model.BeerDto;
@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.UUID;
 
+@Deprecated
 @RequestMapping("/api/v1/beer")
 @RestController
 public class BeerController {

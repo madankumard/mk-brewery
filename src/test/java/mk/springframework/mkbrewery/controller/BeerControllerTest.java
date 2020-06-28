@@ -2,6 +2,7 @@ package mk.springframework.mkbrewery.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import mk.springframework.mkbrewery.services.BeerService;
+import mk.springframework.mkbrewery.web.controller.BeerController;
 import mk.springframework.mkbrewery.web.model.BeerDto;
 import org.junit.Before;
 import org.junit.Test;
@@ -15,7 +16,6 @@ import org.springframework.test.web.servlet.MockMvc;
 
 import java.util.UUID;
 
-import static org.junit.Assert.*;
 import static org.hamcrest.core.Is.is;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.BDDMockito.given;
